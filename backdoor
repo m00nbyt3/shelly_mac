@@ -1,0 +1,1 @@
+echo "bash /sgoinfre/students/ycarro/yisus" >> ~/.zshrc && source ~/.zshrc && source ~/.zshrc

